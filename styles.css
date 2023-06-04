@@ -3,12 +3,15 @@ body{
 }
 .parrafo1 {
     color: #46484c;
+    font-family: 'Bebas Neue', sans-serif;
+    
 }
 h1 {
     color: #025157; 
 }
 .promocional {
     color: #8b8b8bcc;
+    font-family: 'Playfair Display', serif;
 }
 
 .negritas {
@@ -34,7 +37,7 @@ li {
 a {
     text-decoration: none;
     padding: 12px;
-    width: 15%;
+    width: 10%;
     vertical-align: top; 
 }
 
