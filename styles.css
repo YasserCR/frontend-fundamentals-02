@@ -22,23 +22,25 @@ label {
 }
 
 nav {
-    display: inline-block;
     margin: 20px;
     width: 75%;
     text-align: center;
+    flex-direction: row;
+    
 }
 
 li {
-    display: inline-block;
     vertical-align: top;
     margin-right: 25%;
+    text-align: center;
+    display: inline-block;
 }
 
 a {
     text-decoration: none;
     padding: 12px;
     width: 10%;
-    vertical-align: top; 
+    text-align: center;
 }
 
 button {
@@ -46,6 +48,12 @@ button {
     background-color: #b43908;
     width: 10%;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: top;
+} 
 
 
 
